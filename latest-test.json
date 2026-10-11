@@ -1,20 +1,20 @@
 {
-  "versionCode": 34,
-  "versionName": "0.17.7-s25-volta-finish30-test",
-  "sha256": "9f5c7d4c737c106e357b88a95c6a4c2ce08259d03d9c75c6bbf7b95846902566",
-  "totalBytes": 3284873,
-  "notes": "TESTE 0.17.7: VOLTA (Paiva → Recife) agora termina 30 metros antes do gate A original (10 metros antes do gate 0.17.6). A notificação FIM VOLTA é emitida imediatamente no cruzamento GPS válido, antes de aguardar o tempo canônico BSC200. O resultado final é atualizado na mesma notificação sem segundo alerta. IDA, ranking histórico e dados locais preservados. Compatibilidade com o atualizador da 0.17.6 mantida.",
+  "versionCode": 35,
+  "versionName": "0.17.8-s25-volta-top10-live-test",
+  "sha256": "7f73319fae1d0a2f4a1e801131c909ee21706b93b288bead92b128b74dcf79e2",
+  "totalBytes": 3287759,
+  "notes": "TESTE 0.17.8: inclui o pedal real VOLTA de 10/10 no Top 10 (novo P2), desloca automaticamente os demais rivais e remove a atividade que saiu do Top 10. Os dez fantasmas têm perfis completos de tempo por distância no percurso, alinhados ao FINISH 30m antecipado da 0.17.7; notificações de posições, ultrapassagens e diferenças refletem a classificação atual. IDA e dados locais preservados. Testes JUnit 314 PASS, sem falhas. Atualize pelo botão Buscar atualizações.",
   "chunks": [
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part00.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part01.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part02.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part03.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part04.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part05.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part06.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part07.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part08.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part09.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.7-test/part10.b64"
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part00.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part01.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part02.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part03.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part04.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part05.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part06.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part07.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part08.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part09.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.8-test/part10.b64"
   ]
 }
