@@ -1,20 +1,21 @@
 {
-  "versionCode": 37,
-  "versionName": "0.17.10-s25-locked-gates-oct12-top10-test",
-  "sha256": "f7d1382cad11fc316a49bcdceb325569ec483684aeca1506f010839455d94a3f",
-  "totalBytes": 3297313,
-  "notes": "TESTE 0.17.10: GPS DEFINITIVO START IDA (-8.0939221,-34.9291004) e FINISH VOLTA (-8.0938969,-34.9289884), no lado correto da Av. Recife. Perfis completos e 10 rivais em cada sentido recalculados no mesmo gate sem dupla antecipação; nova IDA FIT de 12/10 entra no P5 (47:23,91 MOVING). Tempos antigos realinhados por interpolação, portanto são estimativas nos novos portais, não novos cronometros medidos. Novos testes verificam passagem na pista correta, bloqueiam direção oposta, notificações, instalação e ranking. 334 testes Android aprovados, zero falhas. Dados locais e assinatura preservados. Toque Buscar atualizacoes.",
+  "versionCode": 38,
+  "versionName": "0.17.11-s25-session-recovery-fix-test",
+  "sha256": "0974bf6c399c1c698156f9507b87b005c06d07b578d9225990bd727111c2be9d",
+  "totalBytes": 3297593,
+  "notes": "TESTE 0.17.11: corrige recuperação de sessões de IDA/VOLTA gravadas com gates incompatíveis após atualização. Uma sessão antiga com geometria diferente não será restaurada com distância errada; novas sessões usam identificação estável dos gates e continuam recuperáveis. Gates físicos de 15/10, Top 10, FIT de 12/10, tempo MOVING, alertas e histórico mantidos. 342 testes em 55 suítes, zero falhas, assinatura original preservada. Atualize em Buscar atualizações ANTES de iniciar o pedal.",
   "chunks": [
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part00.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part01.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part02.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part03.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part04.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part05.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part06.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part07.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part08.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part09.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.10-test/part10.b64"
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part00.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part01.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part02.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part03.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part04.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part05.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part06.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part07.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part08.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part09.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part10a.b64",
+    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part10b.b64"
   ]
 }
