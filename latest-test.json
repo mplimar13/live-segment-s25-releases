@@ -1,21 +1,21 @@
 {
-  "versionCode": 38,
-  "versionName": "0.17.11-s25-session-recovery-fix-test",
-  "sha256": "0974bf6c399c1c698156f9507b87b005c06d07b578d9225990bd727111c2be9d",
-  "totalBytes": 3297593,
-  "notes": "TESTE 0.17.11: corrige recuperação de sessões de IDA/VOLTA gravadas com gates incompatíveis após atualização. Uma sessão antiga com geometria diferente não será restaurada com distância errada; novas sessões usam identificação estável dos gates e continuam recuperáveis. Gates físicos de 15/10, Top 10, FIT de 12/10, tempo MOVING, alertas e histórico mantidos. 342 testes em 55 suítes, zero falhas, assinatura original preservada. Atualize em Buscar atualizações ANTES de iniciar o pedal.",
+  "versionCode": 39,
+  "versionName": "0.17.12-s25-ida-p1-oct15-test",
+  "sha256": "a3b9a9fdeaaaf4c17837f48d349b76df33ce07e1d28a4bdde68eff56c809ae11",
+  "totalBytes": 3301638,
+  "notes": "TESTE 0.17.12: IDA 15/10/2026 novo P1 em 46:34,91 MOVING (BSC200). O recorde entra no Top 10 como adversário virtual com trajetória de velocidade REAL reconstruída do CSV GPS/BSC de 1 Hz (1273 marcos distintos, com pausas excluídas), permitindo disputar segundos à frente/atrás ao longo dos 25,434 km. Anterior P1 agora P2; dez adversários reais mantidos. FINISH/START físicos de 15/10, VOLTA, BLE, notificações e retomada de sessão preservados. 348 testes em 56 suítes aprovados, zero falhas; assinatura original verificada. Atualize em Atualizações / Buscar atualizações ANTES do pedal.",
   "chunks": [
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part00.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part01.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part02.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part03.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part04.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part05.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part06.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part07.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part08.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part09.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part10a.b64",
-    "https://raw.githubusercontent.com/mplima133333/live-segment-s25-releases/main/v0.17.11-test/part10b.b64"
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part00.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part01.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part02.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part03.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part04.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part05.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part06.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part07.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part08.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part09.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part10.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.12-test/part11.b64"
   ]
 }
