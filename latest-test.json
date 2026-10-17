@@ -1,21 +1,21 @@
 {
-  "versionCode": 42,
-  "versionName": "0.17.15-s25-three-top10-test",
-  "sha256": "accfd6e9eb8ba85e1f154171c6cbc1dbc6d562737fd696fa793afa34738c936a",
-  "totalBytes": 3310432,
-  "notes": "TESTE 0.17.15: três TOP 10 oficiais (IDA, VOLTA e IDA+VOLTA no mesmo dia), acessíveis por abas e rolagem vertical. Adicionados IDA 16/10/2026 P10 48:00,803 e VOLTA 06/12/2025 P9 46:41,506; combinado liderado em 27/09/2026 com 1:29:58,897. IDA 08/11/2025 permanece excluída. Preservados START/FINISH, BSC200, as demais rotas e a assinatura de atualização. 368 testes em 59 suítes, zero falhas; build limpo Android 16/API 36. Atualize pelo botão interno antes do próximo pedal. Funcionamento no S25/BSC200 físico ainda requer confirmação em campo.",
+  "versionCode": 43,
+  "versionName": "0.17.16-s25-route-specific-top10-test",
+  "sha256": "8289e2b3717eedeb1da70e0aee0d8c398e8fc0c054eeac3b02dfd3f58c6e9db2",
+  "totalBytes": 3313144,
+  "notes": "TESTE 0.17.16 — botão único TOP 10 conforme modalidade escolhida. Paiva: IDA, VOLTA, IDA+VOLTA; Via Mangue: 1–6 voltas, cada uma com Top10 de FITs originais iniciados e fechados no gate físico, tempos MOVING reais, splits por volta e progressão interpolada entre gates; 100 km: sem recordes verificados de 100 km APÓS gate nos FITs recebidos, não inventar ranking. Sem interferência no modo de corrida selecionado. Compilação Android 16, assinatura original, 371 testes PASS (60 suítes); canal estável preservado. Atualize pelo botão interno antes do próximo treino.",
   "chunks": [
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part00.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part01.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part02.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part03.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part04.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part05.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part06.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part07.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part08.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part09.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part10.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part11.b64"
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part00.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part01.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part02.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part03.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part04.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part05.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part06.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part07.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part08.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part09.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part10.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.16-test/part11.b64"
   ]
 }
