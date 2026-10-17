@@ -1,21 +1,21 @@
 {
-  "versionCode": 41,
-  "versionName": "0.17.14-s25-bsc-start-recovery-test",
-  "sha256": "b191d434e94820c610b15a5dd53428c971bd04d4f3e3244effb592c3ca53e420",
-  "totalBytes": 3303722,
-  "notes": "TESTE 0.17.14: corrige caminho ausente de START da IDA/VOLTA. Se o celular não reconhecer a passagem física mas o BSC200 validar o cruzamento real (direção, gate, timer MOVING, tempo, GPS e distância plausíveis), a competição inicia e envia a notificação normalmente. Rejeita amostras antigas, teleporte, pausa, relógio BSC inválido, direção errada e largada duplicada. O relatório curto recebido em 16/10 (20s WAITING, 22 km do START VOLTA) não contém o cruzamento original, portanto não identifica conclusivamente a causa no pedal. Gates, recorde P1 15/10 (46:34.91), Top 10 e demais desafios preservados. 366 testes em 58 suítes, 0 falhas; clean build API 36 e assinatura original verificados. Atualize antes de iniciar novo pedal.",
+  "versionCode": 42,
+  "versionName": "0.17.15-s25-three-top10-test",
+  "sha256": "accfd6e9eb8ba85e1f154171c6cbc1dbc6d562737fd696fa793afa34738c936a",
+  "totalBytes": 3310432,
+  "notes": "TESTE 0.17.15: três TOP 10 oficiais (IDA, VOLTA e IDA+VOLTA no mesmo dia), acessíveis por abas e rolagem vertical. Adicionados IDA 16/10/2026 P10 48:00,803 e VOLTA 06/12/2025 P9 46:41,506; combinado liderado em 27/09/2026 com 1:29:58,897. IDA 08/11/2025 permanece excluída. Preservados START/FINISH, BSC200, as demais rotas e a assinatura de atualização. 368 testes em 59 suítes, zero falhas; build limpo Android 16/API 36. Atualize pelo botão interno antes do próximo pedal. Funcionamento no S25/BSC200 físico ainda requer confirmação em campo.",
   "chunks": [
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part00.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part01.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part02.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part03.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part04.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part05.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part06.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part07.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part08.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part09.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part10.b64",
-    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.14-test/part11.b64"
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part00.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part01.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part02.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part03.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part04.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part05.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part06.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part07.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part08.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part09.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part10.b64",
+    "https://raw.githubusercontent.com/mplimar13/live-segment-s25-releases/main/v0.17.15-test/part11.b64"
   ]
 }
